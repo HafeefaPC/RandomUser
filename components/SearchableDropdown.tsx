@@ -5,7 +5,7 @@ import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover
 import { Button } from '@/components/ui/button';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import { Badge } from '@/components/ui/badge';
-import { Check, ChevronsUpDown, Search, User, MapPin, Sparkles } from 'lucide-react';
+import { Check, ChevronsUpDown, Search, User, MapPin } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { User as UserType } from '@/types/user';
 
