@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
-import { Mail, Phone, MapPin, Calendar, User as UserIcon, Crown, Star, Globe, Sparkles } from 'lucide-react';
+import { Mail, Phone, MapPin, User as UserIcon, Crown, Star, Globe, Sparkles } from 'lucide-react';
 import { User } from '@/types/user';
 
 interface UserDetailsProps {

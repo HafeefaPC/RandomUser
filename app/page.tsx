@@ -7,7 +7,7 @@ import { UserDetails } from '@/components/UserDetails';
 import {LoadingSpinner  } from '@/components/LoadingSpinner';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { Button } from '@/components/ui/button';
-import { RefreshCw, Users, AlertCircle, Sparkles, Globe, Search } from 'lucide-react';
+import { RefreshCw, Users, AlertCircle, Search } from 'lucide-react';
 
 export default function Home() {
   const { users, loading, error, refetch } = useUsers();
